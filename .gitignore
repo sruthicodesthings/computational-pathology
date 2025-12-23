@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+*.pth
+*.pt
+*.tif
+*.tiff
+*.vsi
+*.parquet
+*.csv
+*.tsv
+*.geojson
+.DS_Store
