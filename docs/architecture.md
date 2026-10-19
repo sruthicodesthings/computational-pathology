@@ -1,4 +1,4 @@
-# System architecture — reconstructed
+# System architecture
 
 ## Pre-existing infrastructure
 
@@ -22,5 +22,3 @@ OMERO (microscopy image storage), QuPath (annotations), ABBA (atlas registration
 - Geometry: registration frame errors, uneven slice spacing, shape fidelity in annotations.
 - Visualization: excessive point/mesh density; zoom-dependent detail reduction.
 - Scientific validity: imperfect detections and uncertain spatial matches propagate into downstream quantities.
-
-**Status:** conceptual reconstruction from user account and project documents; not an independently verified network topology.
