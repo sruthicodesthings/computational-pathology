@@ -15,7 +15,3 @@
 - Quantification quality depends on false-positive and false-negative rates by brain, region, genotype, timepoint, imaging batch and morphology, not merely pooled Dice.
 - Downstream manual false-positive deletion should be logged to make burden calculations auditable.
 - No new results are claimed in this reconstructed portfolio.
-
-## Recommended *future* evaluation (not historical work)
-
-Use held-out brains, stratify performance by acquisition batch and morphology, estimate volume errors against manual measurements, and report uncertainty across biological replicates.
