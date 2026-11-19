@@ -184,3 +184,19 @@ These are **proposed improvements**, not claims about work completed at EPFL.
 ---
 
 *Retrospective engineering case study. Institutional data and unpublished results are not distributed; access to this repository does not imply permission to reuse original laboratory materials.*
+
+---
+
+## Recruiter quick read
+
+**Focus:** Computer vision and research engineering for large-scale microscopy and spatial pathology analysis.
+
+**Engineering scope:** Annotation-aware tile sampling, Attention U-Net training reconstruction, batched inference, coordinate registration, and quantitative spatial processing. The project spans data movement, GPU constraints, image artifacts, segmentation errors, and downstream scientific uncertainty.
+
+**Where to inspect implementation:** `src/tile_sampling.py`, `src/training.py`, `src/inference.py`, `src/registration.py`, and `tests/`. For technical decisions and reconstruction boundaries, see `docs/engineering-decisions.md` and `docs/scientific-boundaries.md`.
+
+**Evidence and interpretation:** The historical segmentation metrics above are reported values, not a new independent benchmark. Dataset composition and evaluation conditions changed across rounds. This public code is a reconstruction, not the original institutional repository or a claim of independently validated biological findings.
+
+**What this demonstrates:** Ability to connect machine-learning implementation with real research constraints: heterogeneous inputs, labeling ambiguity, scale, reproducibility, and responsible reporting.
+
+**Next steps:** Add a synthetic-data smoke test, reproducible environment specification, and representative non-sensitive workflow illustrations where permission allows.
